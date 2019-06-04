@@ -45,7 +45,7 @@ resource "null_resource" "adduser" {
   }
 
   provisioner "file" {
-    content     = var.ad_users_csv == null ? file("${path.module}/files/adusers.csv") : var.ad_users_csv
+    content     = var.ad_users_csv == null ? templatefile("${path.module}/templates/adusers.csv.tmpl", { domain_name = var.domain_name }) : var.ad_users_csv
     destination = "c:\\temp\\adusers.csv"
   }
 
