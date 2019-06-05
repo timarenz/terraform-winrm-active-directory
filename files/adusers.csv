@@ -1,8 +1,9 @@
 username,upn,password,group
-domain-admin,domain-admin@arenz.cloud,P@ssword1,Domain Admins
-vaultreader1,vaultreader1@arenz.cloud,P@ssword1,vaultreader
-vaultreader2,vaultreader2@arenz.cloud,P@ssword1,vaultreader
-vaultcontributor1,vaultcontributor1@arenz.cloud,P@ssword1,vaultcontributor
-vaultcontributor2,vaultcontributor2@arenz.cloud,P@ssword1,vaultcontributor
-vaultowner1,vaultowner1@arenz.cloud,P@ssword1,vaultowner
-vaultowner2,vaultowner2@arenz.cloud,P@ssword1,vaultowner
+domain-admin,domain-admin@patrick.cloud,P@ssword1,Domain Admins
+vault-service,vault-service@patrick.cloud,P@ssword1,Domain Admins
+vaultreader1,vaultreader1@patrick.cloud,P@ssword1,vaultreader
+vaultreader2,vaultreader2@patrick.cloud,P@ssword1,vaultreader
+vaultcontributor1,vaultcontributor1@patrick.cloud,P@ssword1,vaultcontributor
+vaultcontributor2,vaultcontributor2@patrick.cloud,P@ssword1,vaultcontributor
+vaultowner1,vaultowner1@patrick.cloud,P@ssword1,vaultowner
+vaultowner2,vaultowner2@patrick.cloud,P@ssword1,vaultowner
