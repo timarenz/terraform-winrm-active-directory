@@ -3,7 +3,6 @@ variable "dependencies" {
   default = null
 }
 
-
 variable "host" {
   type = string
 }
