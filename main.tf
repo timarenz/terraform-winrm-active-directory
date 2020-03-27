@@ -17,7 +17,7 @@ locals {
 }
 
 resource "null_resource" "adds" {
-  depends_on = ["null_resource.dependencies"]
+  depends_on = [null_resource.dependencies]
 
   connection {
     type     = "winrm"
@@ -35,7 +35,7 @@ resource "null_resource" "adds" {
 }
 
 resource "null_resource" "adduser" {
-  depends_on = ["null_resource.adds"]
+  depends_on = [null_resource.adds]
 
   connection {
     type     = "winrm"
